@@ -5,7 +5,7 @@ var bodyParser  = require('body-parser');
 //var LocalStrategy = require('passport-local').Strategy;
 var router      = express.Router();
 
-mongoose.connect(process.env.CONNECTION_STRING||"mongodb://localhost/photography");
+mongoose.connect(process.env.CONNECTION_STRING||"mongodb://localhost/amphoto");
 
 var app         = express();
 var port        = process.env.PORT || '8000';
